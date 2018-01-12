@@ -41,4 +41,4 @@ npm i bootstrap@next --save
 
 rewrite 2.0 t=rtw_x64.msi
 
-npm run watch-webpack-dev
+Webpack - npm run watch-webpack-dev
