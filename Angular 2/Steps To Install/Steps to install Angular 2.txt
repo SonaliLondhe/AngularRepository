@@ -1,0 +1,44 @@
+ Steps to install Angular 2
+1. Install visual studio code
+2. Install nodejs
+
+3. Open node.js command prompt
+ Please follow below steps after completing nodejs installlation
+
+ npm config set proxy http://"INT%5CYOUR_ID":"YOUR_PASS"@usnsh-i-ss16.int.dir.willis.com:8080
+
+ npm config set https-proxy http://"INT%5CYOUR_ID":"YOUR_PASS"@usnsh-i-ss16.int.dir.willis.com:8080
+
+ npm config set registry=http://registry.npmjs.org/
+ npm config set strict-ssl=false
+
+4. Install Angular cli
+ npm install -g @angular/cli
+
+5. Create New Project
+ ng new PROJECT_NAME
+
+6. Open project folder in Visual Studio Code
+
+
+Steps for Kendo UI
+1. Open node js command prompt
+   npm login --registry=https://registry.npm.telerik.com/ --scope=@progress
+2. Install button module
+npm install --save @progress/kendo-angular-buttons @progress/kendo-angular-l10n @angular/animations
+3. Install dropdown
+npm install --save @progress/kendo-angular-dropdowns @progress/kendo-angular-l10n @angular/animations
+4. Install inputs
+npm install --save @progress/kendo-angular-inputs @progress/kendo-angular-intl @progress/kendo-angular-l10n @angular/animations
+5. Install Grid 
+npm install --save @progress/kendo-angular-grid @progress/kendo-angular-dropdowns @progress/kendo-angular-inputs @progress/kendo-angular-dateinputs @progress/kendo-data-query @progress/kendo-angular-intl @progress/kendo-angular-l10n @progress/kendo-drawing @progress/kendo-angular-excel-export @angular/animations
+
+6.Kendo UI Default theme
+npm install --save @progress/kendo-theme-default
+
+Steps for bootscrap
+npm i bootstrap@next --save
+
+rewrite 2.0 t=rtw_x64.msi
+
+npm run watch-webpack-dev
